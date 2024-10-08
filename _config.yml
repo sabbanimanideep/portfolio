@@ -1,0 +1,26 @@
+title: "portfolio"
+description: "this is for learning"
+baseurl: ""  # the subpath of your site, e.g., /blog
+url: "https://sabbanimanideep.github.io"  # the base hostname & protocol for your site
+author:
+  name: "sabbanimanideep"
+  email: "mani06271@gmail.com"
+
+theme: "minima"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+permalink: "/:year/:month/:day/:title/"
+paginate: 130
+
+markdown: "kramdown"
+highlighter: "rouge"
+
+timezone: "Asia/Kolkata"  # India Standard Time (IST)
+baseurl: "portfolio"
+
+
